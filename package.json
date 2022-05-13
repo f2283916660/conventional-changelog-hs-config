@@ -1,6 +1,6 @@
 {
   "name": "conventional-changelog-hs-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "This preset extends the angular preset",
   "main": "index.js",
   "scripts": {
