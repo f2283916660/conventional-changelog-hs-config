@@ -1,9 +1,9 @@
-<h1 align="center">conventional-changelog-custom-config</h1>
+<h1 align="center">conventional-changelog-hs-config</h1>
 <p>
-  <a href="https://github.com/ITxiaohao/conventional-changelog-custom-config#readme">
+  <a href="https://github.com/f2283916660/conventional-changelog-hs-config#readme">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
   </a>
-  <a href="https://github.com/ITxiaohao/conventional-changelog-custom-config/blob/master/LICENSE">
+  <a href="https://github.com/f2283916660/conventional-changelog-hs-config/blob/master/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
   </a>
 </p>
@@ -30,7 +30,7 @@ npm install --save-dev release-it
 ```
 
 ```sh
-npm install conventional-changelog-custom-config --save-dev
+npm install conventional-changelog-hs-config --save-dev
 ```
 
 ## Configuration
@@ -44,7 +44,7 @@ npm install conventional-changelog-custom-config --save-dev
   "scripts": {
     "commit": "git-cz && git push",
     "release": "release-it",
-    "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0"
+    "changelog": "conventional-changelog -p hs-config -i CHANGELOG.md -s -r 0"
   },
   "repository": {
     "type": "git",
@@ -122,7 +122,7 @@ npm run changelog
 
 ## Examples
 
-![](https://raw.githubusercontent.com/ITxiaohao/blog-img/master/img/vue-admin/20190710133722.png)
+![](https://raw.githubusercontent.com/f2283916660/blog-img/master/img/vue-admin/20190710133722.png)
 
 ## Show your support
 
@@ -132,8 +132,8 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2019 [zengshunhao](https://github.com/ITxiaohao).<br />
-This project is [MIT](https://github.com/ITxiaohao/conventional-changelog-custom-config/blob/master/LICENSE) licensed.
+Copyright © 2019 [zengshunhao](https://github.com/f2283916660).<br />
+This project is [MIT](https://github.com/f2283916660/conventional-changelog-hs-config/blob/master/LICENSE) licensed.
 
 ## Thanks
 
