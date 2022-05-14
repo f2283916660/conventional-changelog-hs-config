@@ -59,7 +59,8 @@ npm install conventional-changelog-hs-config --save-dev
     "bugsUrl": "https://redmine.example.com/issues/",
     "emojis": true,
     "authorName": true,
-    "authorEmail": true
+    "authorEmail": true,
+    "ignoreCommitType": ["docs", "style", "test", "chore", "ci", "build"]
   }
 }
 ```
@@ -105,6 +106,12 @@ Type: `boolean` Default: `false`
 Type: `boolean` Default: `false`
 
 在 CHANGELOG 中生成邮箱
+
+**ignoreCommitType**
+
+Type: `string[]` Default: `["docs", "style", "test", "chore", "ci", "build"]`
+
+在 CHANGELOG 中不展示的 CommitType 
 
 ## Usage
 

@@ -18,6 +18,8 @@ const { changelog } = pkgJson
 let bugsUrl = changelog ? changelog.bugsUrl || false : false
 if (typeof bugsUrl !== 'string') bugsUrl = false
 let emojis = changelog ? changelog.emojis || false : false
+const defaultIgnoreCommitType = ['docs', 'style', 'test', 'chore', 'ci', 'build']
+let ignoreCommitType = changelog ? changelog.ignoreCommitType || defaultIgnoreCommitType : defaultIgnoreCommitType
 let authorName = changelog ? changelog.authorName || false : false
 let authorEmail = changelog ? changelog.authorEmail || false : false
 
@@ -59,6 +61,10 @@ function getWriterOpts() {
         note.title = `BREAKING CHANGES`
         discard = false
       })
+
+      if(ignoreCommitType.indexOf(commit.type) !== -1){
+        return
+      }
 
       if (emojis) {
         if (commit.type === `feat`) {
