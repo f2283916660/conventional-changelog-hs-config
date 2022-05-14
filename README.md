@@ -60,7 +60,7 @@ npm install conventional-changelog-hs-config --save-dev
     "emojis": true,
     "authorName": true,
     "authorEmail": true,
-    "ignoreCommitType": ["docs", "style", "test", "chore", "ci", "build"]
+    "ignoreCommitType": ["docs", "style", "test", "chore", "ci", "build", "release"]
   }
 }
 ```
@@ -109,7 +109,7 @@ Type: `boolean` Default: `false`
 
 **ignoreCommitType**
 
-Type: `string[]` Default: `["docs", "style", "test", "chore", "ci", "build"]`
+Type: `string[]` Default: `["docs", "style", "test", "chore", "ci", "build", "release"]`
 
 在 CHANGELOG 中不展示的 CommitType 
 
